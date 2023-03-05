@@ -61,7 +61,8 @@ Order by 'Total Death Count' DESC
 -- Extracting Total Death Count of each Continent
 Select location,  MAX(CAST(total_deaths as Int)) as 'Total Death Count'
 From Covid19Database.dbo.CovidDeaths
-Where continent IS NULL
+Where continent IS NULL 
+and location not in ('World', 'High income','Upper middle income', 'Lower middle income','Low income','European Union', 'International')
 Group by location
 Order by 'Total Death Count' DESC
 
