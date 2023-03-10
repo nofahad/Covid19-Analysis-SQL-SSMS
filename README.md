@@ -12,3 +12,6 @@ Data Source: [Covis-19 Data](https://ourworldindata.org/covid-deaths)
 
 To perform the analysis, the original dataset was divided into two separate datasets containing CovidDeaths and CovidVaccinations records using Microsoft Excel. Created a new database named Covid19_Database in SSMS and then, these datasets were loaded into Microsoft SSMS for data-driven querying. The SQL script file with queries for exploratory analysis of this dataset is available to view in this repository.
 
+![image](https://user-images.githubusercontent.com/110288870/224333258-899bbf2b-b878-4065-9ef7-38e4bd7fac55.png)
+
+
